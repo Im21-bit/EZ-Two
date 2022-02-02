@@ -3,6 +3,16 @@
 	"version": "3.6.0",
 	"description": "Hello",
 	"main": "index.js",
+	
+	"scripts": {
+          "start": "node index.js",
+          "node .": "node run index.js"
+        },
+       "repository" : {
+         "type": "git",
+         "url": "git+https://github.com/Im21-bit/PokeAutohint.git"
+        },
+	
 	"dependencies": {
 		"@replit/database": "^2.0.1",
 		"axios": "^0.21.1",
